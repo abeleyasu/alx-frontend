@@ -1,0 +1,10 @@
+/* Section HERO section */
+.article-page .section-hero {
+    margin-top: -8.5rem; /* Adjust the margin to fix the background */
+    padding-top: 5rem; /* Add padding to the top */
+}
+
+/* Existing media queries */
+@media (max-width: 767px) {
+    /* Your existing media query styles here */
+}

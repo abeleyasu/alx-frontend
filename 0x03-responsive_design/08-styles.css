@@ -1,0 +1,42 @@
+/* Card WORK */
+.card-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-inner {
+    background-color: #f5f5f5; /* Example background color */
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    flex: 1 1 calc(30% - 2rem); /* Adjust the card width */
+    position: relative; /* Position for the media query */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    opacity: 0.8; /* Initial opacity */
+}
+
+.card-title a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Media query for max-width: 767px */
+@media (max-width: 767px) {
+    .card-inner {
+        --text-color: var(--color-white); /* Point to color-white variable */
+        position: relative; /* Maintain relative positioning */
+    }
+
+    .card-title {
+        opacity: 1; /* Full opacity for mobile */
+    }
+
+    .card-work .card-title a {
+        padding: 2rem 1rem 0 1rem; /* Adjust padding for mobile */
+    }
+}

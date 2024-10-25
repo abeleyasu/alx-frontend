@@ -1,0 +1,28 @@
+/* Footer section */
+.footer {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: var(--footer-padding, 2rem); /* Default padding */
+    text-align: center; /* Center align text for larger screens */
+}
+
+.footer-nav {
+    margin-bottom: 1rem; /* Space between nav and copyright text */
+}
+
+/* Media query for max-width: 767px */
+@media (max-width: 767px) {
+    :root {
+        --footer-padding: 5rem 2rem 1rem; /* Override footer-padding variable */
+    }
+
+    .social.nav,
+    .footer-nav {
+        text-align: center; /* Center align text */
+    }
+
+    .social.nav li + li, /* Selects the second li and onward */
+    .footer-nav li + li {
+        padding-left: 2rem; /* Add left padding starting from the second li */
+    }
+}

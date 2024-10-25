@@ -1,0 +1,7 @@
+/* 03-styles.css */
+
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}

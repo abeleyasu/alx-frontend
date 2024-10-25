@@ -1,0 +1,16 @@
+/* Base section */
+
+/* Existing styles... */
+
+/* Responsive Typography */
+@media (max-width: 480px) {
+    html {
+        font-size: 57%; /* Adjust font size for small devices */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 60%; /* Adjust font size for medium devices */
+    }
+}

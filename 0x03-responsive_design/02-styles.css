@@ -1,0 +1,8 @@
+/* 02-styles.css */
+
+/* Container styling */
+.container {
+  max-width: 1200px; /* Set a maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Add padding for smaller screens */
+}
